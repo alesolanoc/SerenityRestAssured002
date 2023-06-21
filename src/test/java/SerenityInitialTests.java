@@ -23,7 +23,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 @RunWith(SerenityRunner.class)
 public class SerenityInitialTests {
-    private final String restApiURI = "http://localhost:5000/api";
+    private final String restApiURI = "http://192.168.100.222:5000/api";
     @Test
     public void getUsersTest(){
         Actor alejandro = Actor.named("Alejandro the tester")

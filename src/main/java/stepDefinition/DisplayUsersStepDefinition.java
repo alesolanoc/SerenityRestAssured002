@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 public class DisplayUsersStepDefinition {
     Actor alejandro;
-    private final String restApiURI = "http://localhost:5000/api";
+    private final String restApiURI = "http://192.168.100.222:5000/api";
 
     @Given("alejandro is a client that wants to allow to lists his users")
     public void alejandroIsAClientThatWantsToAllowToListsHisUsers() {

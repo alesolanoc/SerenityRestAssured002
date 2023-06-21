@@ -12,7 +12,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.equalTo;
 
 public class RegisterUserStepDefinition {
-    private final String restApiURI = "http://localhost:5000/api";
+    private final String restApiURI = "http://192.168.100.222:5000/api";
     Actor alejandro;
 
     @Given("alejandro is a client that wants to allow to register his users")

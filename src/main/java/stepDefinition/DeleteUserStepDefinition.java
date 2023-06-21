@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class DeleteUserStepDefinition {
     Actor alejandro;
-    private final String restApiURI = "http://localhost:5000/api";
+    private final String restApiURI = "http://192.168.100.222:5000/api";
 
     @Given("alejandro is a client that wants to allow to Delete his users")
     public void alejandro_is_a_client_that_wants_to_allow_to_delete_his_users() {
